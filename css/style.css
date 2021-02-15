@@ -118,13 +118,11 @@ nav {
 
 .col-left, .col-right {
     width: 20%;
-    background-color: #abcfe7;
     height: 500px;
 }
 
 .col-center {
     width: 57%;
-    background-color: #abcfe7;
     height: 500px;
     margin: 0 1.5%
 }
