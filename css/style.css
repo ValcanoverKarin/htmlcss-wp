@@ -23,6 +23,15 @@ img {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-object-fit {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /*HEADER*/
@@ -58,10 +67,8 @@ nav {
 /*banner*/
 .banner {
     height: 440px;
+    overflow: hidden;
     margin: 20px 0;
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center;
     border-radius: 10px;
     position: relative;
 }
@@ -88,12 +95,12 @@ nav {
     font-size: 30px;
 }
 
-.title h3 {
+.grey-text {
     color: #a8a8a8;
 }
 /*fine titolo*/
+
 .content {
-    background-color: #0286ff;
     padding: 20px 0;
 }
 
@@ -106,6 +113,7 @@ nav {
 .col {
     float: left;
     height: 400px;
+    border-radius: 10px;
 }
 
 .col-left, .col-right {
@@ -119,14 +127,16 @@ nav {
     background-color: #abcfe7;
     height: 500px;
     margin: 0 1.5%
-    
+}
+
+.col-img {
+    height: 200px;
+    object-fit: cover;
 }
 /*FINE MAIN*/
 
 /*FOOTER*/
 footer {
-    background-color: #8800fe;
-    height: 50px;
     margin: 10px 0px;
     text-align: center;
     padding: 10px;
