@@ -18,6 +18,13 @@ img {
     width: 100%;
 }
 
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
 /*HEADER*/
 /*logo*/
 .logo img {
@@ -50,9 +57,12 @@ nav {
 
 /*banner*/
 .banner {
-    background-color: #e1d67a;
-    height: 450px;
+    height: 440px;
     margin: 20px 0;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 /*banner*/
 /*FINE HEADER*/
