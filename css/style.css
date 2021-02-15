@@ -112,7 +112,6 @@ nav {
 
 .col {
     float: left;
-    height: 400px;
     border-radius: 10px;
 }
 
@@ -138,7 +137,7 @@ nav {
 footer {
     margin: 10px 0px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .heart {
