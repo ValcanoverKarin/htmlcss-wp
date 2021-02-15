@@ -1,33 +1,48 @@
-/*reset*/
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*COMMON*/
 .wrapper {
     width: 1024px;
     margin: auto;
 }
 
-/*header*/
-.logo {
-    background-color: #e579e6;
-    height: 150px;
-    margin: 20px 0;
+img {
+    width: 100%;
 }
 
-.bunner {
+/*HEADER*/
+/*logo*/
+.logo img {
+    width: 150px;
+}
+/*fine logo*/
+
+/*nav*/
+nav {
+    background-color: lightskyblue;
+    height: 60px;
+    margin: 20px 0;
+}
+/*fine nav*/
+
+/*banner*/
+.banner {
     background-color: #e1d67a;
     height: 450px;
     margin: 20px 0;
 }
-/* fine header*/
+/*banner*/
+/*FINE HEADER*/
 
-/*main*/
+/*MAIN*/
 .content {
     background-color: #0286ff;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .content::after {
@@ -38,7 +53,7 @@
 
 .title{
     background-color: #abcfe7;
-    height: 150px;
+    height: 100px;
 }
 
 .col {
@@ -59,12 +74,12 @@
     margin: 0 1.5%
     
 }
-/*fine main*/
+/*FINE MAIN*/
 
-/*footer*/
+/*FOOTER*/
 footer {
     background-color: #8800fe;
     height: 50px;
     margin: 10px 0px;
 }
-/*fine footer*/
+/*FINE FOOTER*/
