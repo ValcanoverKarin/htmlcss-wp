@@ -63,6 +63,16 @@ nav {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    position: relative;
+}
+
+.banner .teaser {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    width: 53%;
+    color: white;
+    font-size: 13px;
 }
 /*banner*/
 /*FINE HEADER*/
@@ -109,5 +119,11 @@ footer {
     background-color: #8800fe;
     height: 50px;
     margin: 10px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.heart {
+    color: red;
 }
 /*FINE FOOTER*/
