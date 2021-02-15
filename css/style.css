@@ -78,6 +78,20 @@ nav {
 /*FINE HEADER*/
 
 /*MAIN*/
+/*titolo*/
+.title{
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.title h2 {
+    font-size: 30px;
+}
+
+.title h3 {
+    color: #a8a8a8;
+}
+/*fine titolo*/
 .content {
     background-color: #0286ff;
     padding: 20px 0;
@@ -87,11 +101,6 @@ nav {
     content: "";
     display: table;
     clear: both;
-}
-
-.title{
-    background-color: #abcfe7;
-    height: 100px;
 }
 
 .col {
