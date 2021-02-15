@@ -6,6 +6,9 @@
 }
 
 /*COMMON*/
+body {
+    font-family: "Montserrat";
+}
 .wrapper {
     width: 1024px;
     margin: auto;
@@ -22,13 +25,28 @@ img {
 }
 /*fine logo*/
 
-/*nav*/
+/*nav e menu*/
 nav {
-    background-color: lightskyblue;
-    height: 60px;
     margin: 20px 0;
 }
-/*fine nav*/
+
+.menu {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    font-size: 15px;
+}
+/*fine nav e menu*/
 
 /*banner*/
 .banner {
